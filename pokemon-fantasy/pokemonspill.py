@@ -1,6 +1,7 @@
 import os
 import sys
 from pokemon import Pokemon
+from trener import Trener
 import json
 
 def rens_termminal():
@@ -24,18 +25,28 @@ while True:
     rens_termminal()
     print("---Pokemon fantasy---")
     print("1: Vis pokemonoversikt")
-    print("2: Vis treneroversikt")
-    print("3: Vis trener")
-    print("4: Avslutt")
+    print("2: Lag ny trener")
+    print("3: Vis treneroversikt")
+    print("4: Vis trener")
+    print("5: Avslutt")
     brukervalg = input(">")
     
     if brukervalg == "1":
         print("pokemonoversikt")
         for pokemon in pokemons:
             print(pokemon)
-               
-        input("Trykk enter for å gå tilbake til hovedmeny")
     elif brukervalg == "2":
+        print("Hva heter du?")
+        brukerinput = input(">")
+        pokemon_liste = ["Charizard", "Mewtwo", "Pikachu"]
+        trener = Trener(brukerinput, pokemon_liste)
+        input("Trykk enter for å gå tilbake til hovedmeny")
+
+    elif brukervalg == "3":
+        trener.vis_trener()
+        input("Trykk enter for å gå tilbake til hovedmeny")
+
+    elif brukervalg == "5":
         print("avslutter..")
         break
     else:
