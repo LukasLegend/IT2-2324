@@ -28,3 +28,4 @@ class Trener:
         print() #Tom linje        
 
 
+
