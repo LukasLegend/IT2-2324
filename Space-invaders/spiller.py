@@ -20,7 +20,10 @@ class Spiller(Skip):
                 for objekt in objekter:
                     if laser.kollisjon(objekt): #Sjekker om en laser kolliderer med et objekt
                         objekter.remove(objekt) #Fjerner objektet
-                        self.lasere.remove(laser) #Fjerner laseren
+                        try:
+                            self.lasere.remove(laser) #Fjerner laseren
+                        except ValueError:
+                            pass
 
     def tegn(self, vindu):
         super().tegn(vindu) #tar tegn funksjonen fra skip.py. Super tar fra "skip" klassen som spiller arver fra

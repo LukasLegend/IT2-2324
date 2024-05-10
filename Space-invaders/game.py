@@ -50,7 +50,7 @@ while run:
     #Legger til nye fiender hver gang ett nytt level starter.
     if len(fiender) == 0:
         level += 1
-        antall_finder += 3
+        antall_finder += 5
         for i in range(antall_finder):
             fiende = Fiende(random.randrange(50, BREDDE - 100), random.randrange(-1500, -300), random.choice(["red", "blue", "green"]), 100)
             fiender.append(fiende)
@@ -62,7 +62,7 @@ while run:
     
     #Når det er 3 sekunder siden du tapte, slutter spillet
     if tapte:
-        if tapte_teller > FPS * 3:
+        if tapte_teller > FPS * 4:
             quit()
             
     #input tastatur

@@ -19,29 +19,38 @@ DONE Avtal tidspunkt for presentasjon innen 26. april
 - Gjør oppgave [2.1 - 2.4 (pseudokode)](https://it2.thorcc.no/databehandling-og-algoritmer/pseudokode#oppgaver)
 - Gjør oppgave [2.12 - 2.14 (algoritmer)](https://it2.thorcc.no/databehandling-og-algoritmer/algoritmer#oppgaver)
 
-TODO Lim inn lenke til github-repository som inneholder avanserte løsninger med programmering  
-TODO Ha en presentasjon der du forklarer en _avansert_ kode
-TODO Lim inn lenke til besvarelse av oppgave 2.1 - 2.4 og 2.12 - 2.14
+DONE Lim inn lenke til github-repository som inneholder avanserte løsninger med programmering  
+https://github.com/LukasLegend/IT2-2324/tree/main/del2pr%C3%B8ve
+
+DONE Ha en presentasjon der du forklarer en _avansert_ kode
+
+DONE Lim inn lenke til besvarelse av oppgave 2.1 - 2.4 og 2.12 - 2.14
+https://github.com/LukasLegend/IT2-2324/tree/main/oppgaver-pseudokode-flytdiagram
 
 ### Gjenbrukbar kode
 
 - Dokumenter deler av koden som hører til et prosjekt med _docstrings_
 
-TODO: Lim inn lenke til kode som er dokumentert med docstrings
+DONE: Lim inn lenke til kode som er dokumentert med docstrings
+https://github.com/LukasLegend/IT2-2324/blob/main/dokumentasjon-og-kommentarer/elev.py
 
 ### Innhente, analysere og presentere data
 
 - Gjør oppgave [3.1 - 3.12 (Pokemon-oppgaver)](https://it2.thorcc.no/apputvikling/oppgaver)
 - Gjør oppgave [2.20 (youtube) eller 2.21 (google play store)](https://it2.thorcc.no/databehandling-og-algoritmer/storre-oppgaver)
 
-TODO Gjør oppgave 2.20 eller 2.21 som øving til tentamen  
+DONE Gjør oppgave 2.20 eller 2.21 som øving til tentamen 
+https://github.com/LukasLegend/IT2-2324/tree/main/algoritmer/databehandling/2%2C20
+
 TODO Lim inn lenke til besvarelse av oppgave 3.1 - 3.12
+https://github.com/LukasLegend/IT2-2324/tree/main/pokemon-fantasy
 
 ### Vern mot kjøretidsfeil og logiske feil i programmer
 
 - Gjør oppgave [3.13 - 3.16 (testing)](https://it2.thorcc.no/apputvikling/testing#oppgaver)
 
-TODO Lim inn lenker til besvarelse av oppgaver
+DONE Lim inn lenker til besvarelse av oppgaver
+https://github.com/LukasLegend/IT2-2324/tree/main/testing
 
 ## Modellering og representasjon
 
@@ -49,19 +58,21 @@ TODO Lim inn lenker til besvarelse av oppgaver
 
 - Lag UML-diagram for et større objektorientert system
 
-TODO Lim inn lenke til UML-diagram  
+DONE Lim inn lenke til UML-diagram  
+https://github.com/LukasLegend/IT2-2324/blob/main/Space-invaders/UML.png
 
 ### Representasjon av programflyt med kontrollstrukturer
 
 - Gjør oppgave [2.5  og 2.6 (flytdiagram)](https://it2.thorcc.no/databehandling-og-algoritmer/)
 
-TODO Lim inn lenke til besvarelser på github
+DONE Lim inn lenke til besvarelser på github
+https://github.com/LukasLegend/IT2-2324/blob/main/oppgaver-pseudokode-flytdiagram/oppgaver-pseudokode-flytdiagram.md
 
 ### Brukervennlighet i programmer
 
 - Ha en presentasjon der du vurderer brukervennlighet i et spill/applikasjon og foreslår hensiktsmessige forbedringer
 
-TODO Hold presentasjon der du presenterer ett eller flere prosjekter
+DONE Hold presentasjon der du presenterer ett eller flere prosjekter
 
 ## Problemløsning
 
@@ -73,19 +84,25 @@ TODO Hold presentasjon der du presenterer ett eller flere prosjekter
     - en interaktiv app i terminalen
     - en web-applikasjon laget med Flask
 
-TODO Lim inn lenke til github-repository (side på github) med relevant kode
+DONE Lim inn lenke til github-repository (side på github) med relevant kode
+https://github.com/LukasLegend/IT2-2324/tree/main/Space-invaders
 
 ### Alternative løsninger
 
 - Ha en presentasjon der du begrunner valg som er gjort i et prosjekt og vurderer alternative løsninger
 
-TODO Hold presentasjon der du presnterer ett eller flere prosjekter
+DONE Hold presentasjon der du presnterer ett eller flere prosjekter
 
 ### Objektorienterte programmer med klasser, arv og objekter
 
 - Lag et større objektorientert system som inneholder klasser, arv og objekter
 
-TODO Lim inn lenke til github-repository (side på github) med relevant kode
+DONE Lim inn lenke til github-repository (side på github) med relevant kode
+
+https://github.com/LukasLegend/IT2-2324/tree/main/Space-invaders
+
+https://github.com/LukasLegend/IT2-2324/tree/main/TENTAMEN%2023%20APRIL
+
 
 ## Samfunn og systemer
 
@@ -93,7 +110,7 @@ TODO Lim inn lenke til github-repository (side på github) med relevant kode
 
 - Oppgave om etikk og konsekvenser ved bruk av IT kommer i uke 12.
 
-TODO Lever oppgave på Teams
+DONE Lever oppgave på Teams
 
 ### Standarder for lagring, utveksling og sikring av data
 

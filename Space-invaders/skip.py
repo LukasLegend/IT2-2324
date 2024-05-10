@@ -28,7 +28,7 @@ class Skip:
                 self.lasere.remove(laser) #Fjerner laseren
 
     def pause(self):
-        if self.skyte_pause_counter >= 30: #Hvis det har gått mer enn ett halvt sekund
+        if self.skyte_pause_counter >= 20: #Hvis det har gått mer enn ett halvt sekund
             self.skyte_pause_counter = 0 #Gjør timeren til 0.
         elif self.skyte_pause_counter > 0: #Hvis pausen_telleren får en verdi over 0:
             self.skyte_pause_counter += 1 #Begynn å legge til 1 hvert sekund.
